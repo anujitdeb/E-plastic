@@ -148,7 +148,8 @@ class AdminController extends Controller
         elseif($request->type == 'customer'){
 
             if (Auth::guard('customer')->attempt($credentials)) {
-//                return $request->all();
+
+                return $request->all();
                 return ['status' => 'success', 'message' => 'Login Success'];
             }
         }
@@ -169,7 +170,7 @@ class AdminController extends Controller
     public function logout()
     {
         Auth::guard('admin')->logout();
-        return view('/eplastic');
+        return view('withoutLogin.welcome');
     }
 
     public function forgotPassword()
@@ -229,11 +230,6 @@ class AdminController extends Controller
 
 
     }
-
-
-
-
-
 
     public function resetPasswordUpdate(Request $request)
     {
