@@ -16,6 +16,7 @@
                         </span>
                         <button type="button" class="btn-close text-white" data-bs-dismiss="alert" aria-label="Close">
                             <i data-feather="x" class="w-4 h-4"></i>
+                            <i data-feather="x" class="w-4 h-4"></i>
                         </button>
                     </div>
                 </div>
