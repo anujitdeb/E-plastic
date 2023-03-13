@@ -169,7 +169,7 @@ class AdminController extends Controller
     public function logout()
     {
         Auth::guard('admin')->logout();
-        return redirect()->route('dashboard.index');
+        return view('/eplastic');
     }
 
     public function forgotPassword()

@@ -11,27 +11,27 @@
         <div class="fade-mode">
             <div class="h-64 px-2">
                 <div class="h-full image-fit rounded-md overflow-hidden">
-                    <img alt="Midone - HTML Admin Template" src="{{asset('dist/slider/slider1.png')}}" />
+                    <img alt="Slider image 1" src="{{asset('dist/slider/slider1.png')}}" />
                 </div>
             </div>
             <div class="h-64 px-2">
                 <div class="h-full image-fit rounded-md overflow-hidden">
-                    <img alt="Midone - HTML Admin Template" src="{{asset('dist/slider/slider2.jpg')}}" />
+                    <img alt="Slider image 2" src="{{asset('dist/slider/slider2.jpg')}}" />
                 </div>
             </div>
             <div class="h-64 px-2">
                 <div class="h-full image-fit rounded-md overflow-hidden">
-                    <img alt="Midone - HTML Admin Template" src="{{asset('dist/slider/slider3.jpg')}}" />
+                    <img alt="Slider image 3" src="{{asset('dist/slider/slider3.jpg')}}" />
                 </div>
             </div>
             <div class="h-64 px-2">
                 <div class="h-full image-fit rounded-md overflow-hidden">
-                    <img alt="Midone - HTML Admin Template" src="{{asset('dist/slider/slider4.jpg')}}" />
+                    <img alt="Slider image 4" src="{{asset('dist/slider/slider4.jpg')}}" />
                 </div>
             </div>
             <div class="h-64 px-2">
                 <div class="h-full image-fit rounded-md overflow-hidden">
-                    <img alt="Midone - HTML Admin Template" src="{{asset('dist/slider/slider5.jpg')}}" />
+                    <img alt="Slider image 5" src="{{asset('dist/slider/slider5.jpg')}}" />
                 </div>
             </div>
         </div>
